@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Cookie&family=Josefin+Slab:wght@500&family=Lobster&family=Marck+Script&family=Satisfy&family=Sora:wght@100&display=swap');
 
 body {
-    weight: 400px;;
+    width: 400px;
     height: 500px;
     background-color:#F5F5F5;
     border: 16px 16px 20px 16px;
