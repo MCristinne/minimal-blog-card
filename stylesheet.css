@@ -1,25 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Cookie&family=Josefin+Slab:wght@500&family=Lobster&family=Marck+Script&family=Satisfy&family=Sora:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Cookie&family=Josefin+Slab:wght@500&family=Lobster&family=Marck+Script&family=Satisfy&family=Sora:wght@300&display=swap');
 
 body {
-    width: 400px;
-    height: 500px;
+    position: relative;
+    top: 164px;
+    width: 336px;
     background-color:#F5F5F5;
-    border: 16px 16px 20px 16px;
-    border-radius: 30%;
-
+    padding: 16px 16px 20px 16px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 img{
-    border-bottom: 16px;
-    border-radius: 30%;
+    width: 336px;
+    height: 152px;
+    border-radius: 10px;
+    background-size: contain;
+    margin-bottom: 12px;
 }
 
 #tag {
-    background-color: rgb(206, 154, 255);
-    color: blueviolet;
+    background-color: #E6D6FC;
+    color: #883AE1;
     font-family: 'Sora', sans-serif;
     font-size: 10px;
-    border-radius: 50%;
+    border-radius: 10px;
+    padding: 4px 12px;
+    text-align: center;
+    font-weight: bold;
     width: 50px;
 }
 
@@ -28,11 +39,27 @@ h1 {
     font-size: 18px;
 }
  p {
+    margin-top: 6px;
+    margin-bottom: 20px;
     font-family: 'Sora', sans-serif;
     font-size: 14px;
+    color: #6C727F;
+line-height: 1.50;
  }
 
+
+ .divider {
+    border-bottom: 1px solid #E5EAF0;
+    width: 368px;
+    position: relative;
+    left: -16px;
+}
+
+ footer {
+    padding-top: 16px;
+ }
  .author-name {
     font-family: 'Sora', sans-serif;
-    font-size: 12px;   
+    font-size: 12px;  
+    color: #6C727F; 
  }
