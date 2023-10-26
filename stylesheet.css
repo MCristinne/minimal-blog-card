@@ -19,6 +19,8 @@ img{
     color: blueviolet;
     font-family: 'Sora', sans-serif;
     font-size: 10px;
+    border-radius: 50%;
+    width: 50px;
 }
 
 h1 {
@@ -27,5 +29,10 @@ h1 {
 }
  p {
     font-family: 'Sora', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
+ }
+
+ .author-name {
+    font-family: 'Sora', sans-serif;
+    font-size: 12px;   
  }
